@@ -10,6 +10,7 @@
 
         public ComputerPlayer()
         {
+            // checking what happens nwith git
             this.Name = "Computer";
             this.UnGuessedCells = new List<Cell>((Board.ValidCharacters.Length * Board.ValidNumbers.Length) / 2);
 
